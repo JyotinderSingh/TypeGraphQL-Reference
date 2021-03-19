@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/jyotinder.singh/.nvm/versions/node/v15.5.1/bin/node /Users/jyotinder.singh/.nvm/versions/node/v15.5.1/bin/yarn add apollo-server-express express graphql reflect-metdata type-graphql
+
+PATH: 
+  /Users/jyotinder.singh/.jenv/shims:/Users/jyotinder.singh/.jenv/bin:/usr/local/sbin:/Users/jyotinder.singh/.nvm/versions/node/v15.5.1/bin:/Users/jyotinder.singh/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/jyotinder.singh/.jenv/shims:/Users/jyotinder.singh/.jenv/bin:/usr/local/sbin:/Users/jyotinder.singh/.nvm/versions/node/v15.5.1/bin:/Users/jyotinder.singh/.pyenv/shims
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.5.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/reflect-metdata: Not found
+      at Request.params.callback [as _callback] (/Users/jyotinder.singh/.nvm/versions/node/v15.5.1/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/jyotinder.singh/.nvm/versions/node/v15.5.1/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (/Users/jyotinder.singh/.nvm/versions/node/v15.5.1/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (/Users/jyotinder.singh/.nvm/versions/node/v15.5.1/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+
+npm manifest: 
+  {
+    "name": "typegraphql",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
