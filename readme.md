@@ -13,3 +13,4 @@ I'm a noob so I keep such repos on my GitHub to refer back to in the future (2 w
   - ioredis is the redis client that we're going to use
   - we also install cors so that we don't face problems with cookies
 - We send confirmation emails to users on sign up to confirm their accounts, which contain a link that the user needs to click to be able to login to their account
+- We allow the user to reset their password by clicking on a link sent to their email
