@@ -1,4 +1,4 @@
-# TypeGraphQL Boilerplate
+# TypeGraphQL Boilerplate [in progress]
 
 I'm a noob so I keep such repos on my GitHub to refer back to in the future (2 weeks from now), when I've forgotten how this shit works.
 
