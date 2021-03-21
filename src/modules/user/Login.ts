@@ -27,6 +27,12 @@ export class LoginResolver {
       return null;
     }
 
+    // you can probably throw an error here rather than just null,
+    // but that's just a security decision you need to balance with usability
+    if (!user.confirmed) {
+      return null;
+    }
+
     // If the user made it till here, it means they authenticated successfully
     // and now we'll send them back a cookie
     // For this we need access to the context and we need access to the request object to store the session for them
