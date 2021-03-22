@@ -1,9 +1,13 @@
 import { Length } from "class-validator";
-import { Field, InputType } from "type-graphql";
+import { ClassType, Field, InputType } from "type-graphql";
 
-@InputType()
-export class PasswordInput {
-  @Field()
-  @Length(5, 20)
-  password: string;
-}
+// We turned this into a mixin so that we could extend multiple classes (just for demo)
+export const PasswordMixin = <T extends ClassType>(BaseClass: T) => {
+  @InputType({ isAbstract: true })
+  class PasswordInput extends BaseClass {
+    @Field()
+    @Length(5, 20)
+    password: string;
+  }
+  return PasswordInput;
+};

@@ -30,7 +30,8 @@ const main = async () => {
     schema,
     // We pass a function to our context that accesses the request object
     // provided by Express, and we return it as it is to make it available in the context
-    context: ({ req }: any) => ({ req }),
+    // And as we are passing a function we get a new req/res object on every call
+    context: ({ req, res }: any) => ({ req, res }),
   });
 
   const app = Express();
